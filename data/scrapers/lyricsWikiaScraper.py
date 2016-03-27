@@ -11,7 +11,7 @@ class LyricsWikiaScraper(BaseScraper):
         It sets the values for specific data needed for the scraper.
         """
         self.hostUrl = "http://www.lyricsondemand.com"
-        self.generalArtistPath = "/miscellaneouslyrics/" # note: case matters
+        self.generalArtistPath = "/miscellaneouslyrics/fightsonglyrics" # note: case matters
         self.spaceChar = "_"
         self.delay = 1.0
 
