@@ -10,8 +10,8 @@ class LyricsWikiaScraper(BaseScraper):
         This is the constructor for the LyricsWikiaScraper.
         It sets the values for specific data needed for the scraper.
         """
-        self.hostUrl = "lyrics.wikia.com"
-        self.generalArtistPath = "/wiki/Category:Songs_by_" # note: case matters
+        self.hostUrl = "http://www.lyricsondemand.com"
+        self.generalArtistPath = "/miscellaneouslyrics/fightsongslyrics/" # note: case matters
         self.spaceChar = "_"
         self.delay = 1.0
 
